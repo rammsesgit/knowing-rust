@@ -1,3 +1,4 @@
 fn main() {
-  println!("Hello, cargo!!");
+  let v: Vec<i32> = vec![1,2,3,4];
+  println!("Hello, cargo!!, {:?}", v);
 }
